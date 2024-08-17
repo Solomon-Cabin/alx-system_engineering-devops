@@ -1,3 +1,8 @@
+/*
+ * File: 102-zombie.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -9,7 +14,6 @@
  *
  * Return: Always 0.
  */
-
 int infinite_while(void)
 {
 	while (1)
@@ -24,7 +28,6 @@ int infinite_while(void)
  *
  * Return: Always 0.
  */
-
 int main(void)
 {
 	pid_t pid;
